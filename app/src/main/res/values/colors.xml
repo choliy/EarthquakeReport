@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#D32F2F</color>
+    <color name="color_primary_dark">#B71C1C</color>
+    <color name="color_accent">#03A9F4</color>
+
+    <!-- Magnitude Colors -->
+    <color name="magnitude_00">#2d6ba2</color>
+    <color name="magnitude_01">#4A7BA7</color>
+    <color name="magnitude_02">#04B4B3</color>
+    <color name="magnitude_03">#10CAC9</color>
+    <color name="magnitude_04">#F5A623</color>
+    <color name="magnitude_05">#FF7D50</color>
+    <color name="magnitude_06">#FC6644</color>
+    <color name="magnitude_07">#E75F40</color>
+    <color name="magnitude_08">#E13A20</color>
+    <color name="magnitude_09">#D93218</color>
+    <color name="magnitude_10">#C03823</color>
+</resources>

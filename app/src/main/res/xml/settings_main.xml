@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_earthquakes_default"
+        android:entries="@array/earthquakes"
+        android:entryValues="@array/earthquakes"
+        android:key="@string/settings_earthquakes_key"
+        android:title="@string/settings_earthquakes_label"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_min_magnitude_default"
+        android:entries="@array/settings_magnitude"
+        android:entryValues="@array/settings_magnitude"
+        android:key="@string/settings_min_magnitude_key"
+        android:title="@string/settings_min_magnitude_label"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_max_magnitude_default"
+        android:entries="@array/settings_magnitude"
+        android:entryValues="@array/settings_magnitude"
+        android:key="@string/settings_max_magnitude_key"
+        android:title="@string/settings_max_magnitude_label"/>
+
+</PreferenceScreen>
